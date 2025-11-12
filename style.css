@@ -15,7 +15,10 @@ header {
   color: white;
 }
 
-article{
+
+
+.room {
+  display: inline-block;
   width: 350px;
   height: 335px;
   background-color: white;
@@ -24,18 +27,10 @@ article{
   padding: 10px;
   border: 2px solid #3498db;
   border-radius: 10px;
-}
-
-article h2{
   text-align: left;
 }
 
-article p{
-  text-align: left;
-  
-}
-
-article img {
+.room img {
   height: 180px;
   width: 340px;
   border-radius: 10px;
@@ -43,10 +38,32 @@ article img {
 
 .reservation-form {
   background-color: #3498db;
-  color: white;
+  color: white; 
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 15px;
+  width: 95%;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+input{
+  margin-bottom: 8px;
+  width: 99%;
+  padding: 4px;
+  border-radius: 4px;
+  border: 0px solid white;
 }
 
 button {
   background-color: #0008ee;
   color: white;
+  padding: 6px 10px;
+  border: 0px solid #0008ee;
+  border-radius: 6px;
 }
